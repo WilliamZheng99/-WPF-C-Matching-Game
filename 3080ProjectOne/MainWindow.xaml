@@ -1,0 +1,58 @@
+﻿<Window x:Name="WIndow1" x:Class="_3080ProjectOne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3080ProjectOne"
+        mc:Ignorable="d"
+        Title="3080ProjectOne_1155124322" Height="582" Width="979" Loaded="Window_Loaded">
+    
+    <Window.Foreground>
+        <ImageBrush/>
+    </Window.Foreground>
+    <Window.Background>
+        <ImageBrush ImageSource="/3080ProjectOne;component/img/10.jpg" Stretch="UniformToFill" TileMode="None"/>
+    </Window.Background>
+    <Grid x:Name="Grid1" Margin="0,8,10,-35">
+        <Label x:Name="GuessLabel" Content="Time to Start" HorizontalAlignment="Left" Margin="680,226,0,0" VerticalAlignment="Top" Height="64" Width="263" FontFamily="Matura MT Script Capitals" FontSize="40" Foreground="White"/>
+        <Label x:Name="TimerLabel" Content="6" HorizontalAlignment="Left" Margin="770,272,0,0" VerticalAlignment="Top" FontSize="70" Foreground="White" FontFamily="Matura MT Script Capitals"/>
+        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" Margin="39,19,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn1_Click" Cursor="Hand" Tag="1" Uid="1">
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="dupbtn1" Content="" HorizontalAlignment="Left" Margin="162,19,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn1_Click" Cursor="Hand" Tag="1" Uid="1"/>
+        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" Margin="285,19,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn2_Click" Cursor="Hand" Tag="2" Uid="2"/>
+        <Button x:Name="dupbtn2" Content="" HorizontalAlignment="Left" Margin="408,19,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn2_Click" Cursor="Hand" Tag="2" Uid="2"/>
+        <Button x:Name="btn3" Content="" HorizontalAlignment="Left" Margin="531,19,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn3_Click" Cursor="Hand" Tag="3" Uid="3"/>
+        <Button x:Name="dupbtn3" Content="" HorizontalAlignment="Left" Margin="39,141,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn3_Click" Cursor="Hand" Tag="3" Uid="3"/>
+        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" Margin="162,141,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn4_Click" Cursor="Hand" Tag="4" Uid="4"/>
+        <Button x:Name="dupbtn4" Content="" HorizontalAlignment="Left" Margin="285,141,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn4_Click" Cursor="Hand" Tag="4" Uid="4"/>
+        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" Margin="408,141,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn5_Click" Cursor="Hand" Tag="5" Uid="5"/>
+        <Button x:Name="dupbtn5" Content="" HorizontalAlignment="Left" Margin="531,141,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn5_Click" Cursor="Hand" Tag="5" Uid="5"/>
+        <Button x:Name="btn6" Content="" HorizontalAlignment="Left" Margin="39,265,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn6_Click" Cursor="Hand" Tag="6" Uid="6"/>
+        <Button x:Name="dupbtn6" Content="" HorizontalAlignment="Left" Margin="162,265,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn6_Click" Cursor="Hand" Tag="6" Uid="6"/>
+        <Button x:Name="btn7" Content="" HorizontalAlignment="Left" Margin="285,265,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn7_Click" Cursor="Hand" Tag="7" Uid="7"/>
+        <Button x:Name="dupbtn7" Content="" HorizontalAlignment="Left" Margin="408,265,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn7_Click" Cursor="Hand" Tag="7" Uid="7"/>
+        <Button x:Name="btn8" Content="" HorizontalAlignment="Left" Margin="531,265,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn8_Click" Cursor="Hand" Tag="8" Uid="8"/>
+        <Button x:Name="dupbtn8" Content="" HorizontalAlignment="Left" Margin="39,388,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn8_Click" Cursor="Hand" Tag="8" Uid="8"/>
+        <Button x:Name="btn9" Content="" HorizontalAlignment="Left" Margin="162,388,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn9_Click" Cursor="Hand" Tag="9" Uid="9"/>
+        <Button x:Name="dupbtn9" Content="" HorizontalAlignment="Left" Margin="285,388,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn9_Click" Cursor="Hand" Tag="9" Uid="9"/>
+        <Button x:Name="btn10" Content="" HorizontalAlignment="Left" Margin="408,388,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="btn10_Click" Cursor="Hand" Tag="10" Uid="10"/>
+        <Button x:Name="dupbtn10" Content="" HorizontalAlignment="Left" Margin="531,388,0,0" VerticalAlignment="Top" Width="118" Height="118" Click="dupbtn10_Click" Cursor="Hand" Tag="10" Uid="10"/>
+        <Label Content="Monster Hunter" HorizontalAlignment="Left" Margin="667,73,0,0" VerticalAlignment="Top" FontSize="26" Foreground="White" FontFamily="Charlemagne Std" FontStretch="Normal" FontStyle="Normal"/>
+        <Label Content="Matching" HorizontalAlignment="Left" Margin="728,116,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Constantia" FontWeight="Bold" Foreground="White"/>
+        <Button Content="(re) start" HorizontalAlignment="Left" Margin="713,454,0,0" VerticalAlignment="Top" FontSize="30" Focusable="False" FontFamily="Castellar" Width="196" Click="Button_Click" Cursor="Hand"/>
+        <Label Content="Presented by William Zheng, Dec. 2020" HorizontalAlignment="Left" Margin="11,512,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5" FontFamily="Times New Roman">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>

@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_3080ProjectOne</RootNamespace>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="music\**" />
+    <EmbeddedResource Remove="music\**" />
+    <None Remove="music\**" />
+    <Page Remove="music\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="GlavenusChase.mp3" />
+    <None Remove="img\00.png" />
+    <None Remove="img\01.png" />
+    <None Remove="img\02.jpg" />
+    <None Remove="img\03.jpg" />
+    <None Remove="img\04.jpg" />
+    <None Remove="img\05.jpg" />
+    <None Remove="img\06.jpg" />
+    <None Remove="img\07.jpg" />
+    <None Remove="img\08.jpg" />
+    <None Remove="img\09.jpg" />
+    <None Remove="img\10.jpg" />
+    <None Remove="img\bgm.wav" />
+    <None Remove="img\Blackveil_Vaal_Hazak_Icon.png" />
+    <None Remove="img\Deviljho_Icon.png" />
+    <None Remove="img\GlavenusChase.mp3" />
+    <None Remove="img\Glavenus_Icon.png" />
+    <None Remove="img\Kulve_Taroth_Icon.png" />
+    <None Remove="img\Kushala_Daora_Icon.png" />
+    <None Remove="img\MH10th-MHP3_Question_Mark_Icon.png" />
+    <None Remove="img\Namielle_Icon.png" />
+    <None Remove="img\Ruiner_Nergigante_Icon.png" />
+    <None Remove="img\Seething_Bazelgeuse_Icon.png" />
+    <None Remove="img\Velkhana_Icon.png" />
+    <None Remove="img\Zinogre_Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\00.png" />
+    <Resource Include="img\01.png" />
+    <Resource Include="img\02.jpg" />
+    <Resource Include="img\03.jpg" />
+    <Resource Include="img\04.jpg" />
+    <Resource Include="img\05.jpg" />
+    <Resource Include="img\06.jpg" />
+    <Resource Include="img\07.jpg" />
+    <Resource Include="img\08.jpg" />
+    <Resource Include="img\09.jpg" />
+    <Resource Include="img\10.jpg" />
+    <Resource Include="img\Blackveil_Vaal_Hazak_Icon.png" />
+    <Resource Include="img\Deviljho_Icon.png" />
+    <Resource Include="img\Glavenus_Icon.png" />
+    <Resource Include="img\Kulve_Taroth_Icon.png" />
+    <Resource Include="img\Kushala_Daora_Icon.png" />
+    <Resource Include="img\MH10th-MHP3_Question_Mark_Icon.png" />
+    <Resource Include="img\Namielle_Icon.png" />
+    <Resource Include="img\Ruiner_Nergigante_Icon.png" />
+    <Resource Include="img\Seething_Bazelgeuse_Icon.png" />
+    <Resource Include="img\Velkhana_Icon.png" />
+    <Resource Include="img\Zinogre_Icon.png" />
+  </ItemGroup>
+
+</Project>
